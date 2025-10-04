@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDkXhFm0D0q2Qvj2ifneBqfkVm799JtojU"
+os.environ["GOOGLE_API_KEY"] = ".............."
 
 from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -99,3 +99,4 @@ for i, question in enumerate(test_questions, 1):
 
 print("\n[OK] All tests completed!")
 print("\nTo run the interactive chatbot, use: python main.py")
+
