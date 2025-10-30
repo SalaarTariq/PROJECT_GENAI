@@ -4,7 +4,7 @@ from langchain_core.messages import HumanMessage
 import requests
 
 import os
-os.environ["GOOGLE_API_KEY"]= "AIzaSyAlxt6gz0Y4R-eLb8_KG2LzesnsaRszvOE"
+os.environ["GOOGLE_API_KEY"]= ""
 
 #tool create 
 @tool
@@ -25,3 +25,4 @@ def convert(base_currecny_value: int,conversion_rate:float)-> float:
     return base_currecny_value *conversion_rate
 
 print(convert.invoke({'base_currency_value':10,'conversion_rate':289}))
+
